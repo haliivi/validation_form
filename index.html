@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>RegEx Форма</title>
 </head>
 <body>
-    <h1>Сравнение Нового Пользователя/h1>
+    <h1>Сравнение Нового Пользователя</h1>
+    <form>
+        <input type="text" name="username" placeholder="логин">
+        <p>Логин должен содержать 5-12 символов</p>
+        <input type="text" name="email" placeholder="email">
+        <p>Укажите правильную форму email-а, me@example.com</p>
+        <input type="type" name="password" placeholder="пароль">
+        <p>Пароль должен содержать буквы, цифры (@, _ и - тоже допускается) и состоять из 8 - 20 символов</p>
+        <input type="text" name="telephone" placeholder="телефон">
+        <p>Телефон должен быть введен в правильном формате (11 цифр).</p>
+        <input type="text" name="slug" placeholder="ссылка профиля">
+        <p>Ссылка должна содержать только строчные буквы, номера и дефисы, а так же состоять из 8 - 20 символов.</p>
+    </form>
+    <script type="text/javascript" src="./validation.js"></script>
 </body>
 </html>
